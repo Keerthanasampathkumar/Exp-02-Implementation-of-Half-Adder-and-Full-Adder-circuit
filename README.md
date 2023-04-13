@@ -39,6 +39,8 @@ Program to design a half adder and full adder circuit and verify its truth table
 Developed by: KEERTHANA S
 RegisterNumber:  212222230066
 
+PROGRAM 1
+
 module Halfadder(a,b,sum,carry);
 
 input a,b;
@@ -51,7 +53,7 @@ and(carry,a,b);
 
 endmodule
 
-module ex21(a,b,c,sum,carry);
+module fulladd(a,b,c,sum,carry);
 
 input a,b,c;
 
@@ -62,23 +64,29 @@ assign sum=((a^b)^c);
 assign carry=((a&b)|(b&c)|(c&a));
 
 endmodule 
-*/
-Logic symbol & Truthtable
-![T1](https://user-images.githubusercontent.com/119477890/231667062-69f5e624-f355-4733-ab05-4dc6b8a86172.png)
-C:\Users\dell\Downloads\E 1.png
+### PROGRAM 1
+![program](https://user-images.githubusercontent.com/119477890/231781764-7367e74e-e5b4-43e7-ae9e-edac536dda01.png)
+### PROGRAM 2
+![pro](https://user-images.githubusercontent.com/119477890/231781861-011c8a31-0ff2-4391-8743-e2a5b285a21a.png)
+
+
 ### Output:
 
 ### RTL
-![E 2](https://user-images.githubusercontent.com/119477890/231664031-02480473-6b7e-4f5a-b300-8b67d664c06b.png)
+![RTLimage](https://user-images.githubusercontent.com/119477890/231782927-5bba3bb8-248e-4df9-ab35-e207a5f0529a.png)
 
-![T 3](https://user-images.githubusercontent.com/119477890/231664059-408a85f2-74d7-4b9c-8d9c-800587bfc99c.png)
+![rtl](https://user-images.githubusercontent.com/119477890/231782977-20459559-0640-4ca9-b810-048ac653fb0a.png)
+
 
 ### TIMING DIAGRAM
-![T4](https://user-images.githubusercontent.com/119477890/231664313-a7279dfe-8ef6-4ca8-a5d7-28ebc44c21c9.png)
+![timingdiagram](https://user-images.githubusercontent.com/119477890/231782327-6a234474-ab16-4122-a81c-6f8aa1ad210b.png)
+![RTLimage](https://user-images.githubusercontent.com/119477890/231782358-2952bc69-ade6-496e-8abf-937ef1c22422.png)
 
 
-![T 5](https://user-images.githubusercontent.com/119477890/231664128-3552b02b-d266-47fe-a7d7-99a66800e026.png)
+### TRUTHTABLE
+![tt](https://user-images.githubusercontent.com/119477890/231782570-d4fef1b3-7cd1-45ed-8683-a575e4b73560.png)
 
+![Truthtable 0](https://user-images.githubusercontent.com/119477890/231782429-f5975890-917b-4c9c-a391-787ade6a941b.png)
 
 ### Result:
 Thus,the output for the half adder and full adder are successfully done
