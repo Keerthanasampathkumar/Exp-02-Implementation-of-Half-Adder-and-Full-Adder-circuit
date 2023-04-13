@@ -40,26 +40,47 @@ Program:
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 Developed by: KEERTHANA S
 RegisterNumber:  212222230066
-module ex21(a,b,c,sum,carry);
-input a,b,c;
+
+module Halfadder(a,b,sum,carry);
+
+input a,b;
+
 output sum,carry;
+
+xor(sum,a,b);
+
+and(carry,a,b);
+
+endmodule
+
+module ex21(a,b,c,sum,carry);
+
+input a,b,c;
+
+output sum,carry;
+
 assign sum=((a^b)^c);
+
 assign carry=((a&b)|(b&c)|(c&a));
+
 endmodule 
 */
 Logic symbol & Truthtable
+![1](https://user-images.githubusercontent.com/119477890/231664292-cf091773-2a90-46ae-ab95-0d198501e4c9.png)
 
-![T2](https://user-images.githubusercontent.com/119477890/231663490-a2fcda2e-1451-4689-8cbb-52dc2b76e123.png)
 
 ### Output:
 
 ### RTL
-![Screenshot 2023-04-13 101602](https://user-images.githubusercontent.com/119477890/231663636-b004bfc0-4f12-473b-93c9-3ecb73c812cd.png)
+![E 2](https://user-images.githubusercontent.com/119477890/231664031-02480473-6b7e-4f5a-b300-8b67d664c06b.png)
 
+![T 3](https://user-images.githubusercontent.com/119477890/231664059-408a85f2-74d7-4b9c-8d9c-800587bfc99c.png)
 
 ### TIMING DIAGRAM
+![T4](https://user-images.githubusercontent.com/119477890/231664313-a7279dfe-8ef6-4ca8-a5d7-28ebc44c21c9.png)
 
-![Screenshot 2023-04-13 102213](https://user-images.githubusercontent.com/119477890/231663614-c285ca38-8fdf-4bb6-b677-ff0b3b12824c.png)
+
+![T 5](https://user-images.githubusercontent.com/119477890/231664128-3552b02b-d266-47fe-a7d7-99a66800e026.png)
 
 
 ### Result:
