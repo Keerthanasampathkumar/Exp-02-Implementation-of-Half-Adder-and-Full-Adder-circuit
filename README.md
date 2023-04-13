@@ -78,7 +78,8 @@ endmodule
 
 ### TIMING DIAGRAM
 ![timingdiagram](https://user-images.githubusercontent.com/119477890/231782327-6a234474-ab16-4122-a81c-6f8aa1ad210b.png)
-![RTLimage](https://user-images.githubusercontent.com/119477890/231782358-2952bc69-ade6-496e-8abf-937ef1c22422.png)
+![3](https://user-images.githubusercontent.com/119477890/231786429-478cb196-1588-495a-8986-fa0f385ad84f.png)
+
 
 ### TRUTHTABLE
 ![Truthtable 0](https://user-images.githubusercontent.com/119477890/231785577-8fa1c9bd-34f8-49f2-9eef-7d6c188731ee.png)
