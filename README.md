@@ -64,10 +64,8 @@ assign carry=((a&b)|(b&c)|(c&a));
 endmodule 
 */
 Logic symbol & Truthtable
-
-![1](https://user-images.githubusercontent.com/119477890/231666562-e1f48094-664c-43db-a9d1-ecdb01ef4a64.png)
-
-
+![T1](https://user-images.githubusercontent.com/119477890/231667062-69f5e624-f355-4733-ab05-4dc6b8a86172.png)
+C:\Users\dell\Downloads\E 1.png
 ### Output:
 
 ### RTL
