@@ -1,4 +1,4 @@
-# Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
+# Exp-03-Implementation-of-Half-Adder-and-Full-Adder-circuit
 
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
 ### AIM:
@@ -32,7 +32,8 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
-### Program:
+### 
+Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 Developed by: KEERTHANA S
@@ -52,7 +53,6 @@ and(carry,a,b);
 
 endmodule
 ### PROGRAM 2
-
 module fulladd(a,b,c,sum,carry);
 
 input a,b,c;
@@ -64,31 +64,25 @@ assign sum=((a^b)^c);
 assign carry=((a&b)|(b&c)|(c&a));
 
 endmodule 
-*/
 ### PROGRAM 1
 ![program](https://user-images.githubusercontent.com/119477890/231781764-7367e74e-e5b4-43e7-ae9e-edac536dda01.png)
 ### PROGRAM 2
 ![pro](https://user-images.githubusercontent.com/119477890/231781861-011c8a31-0ff2-4391-8743-e2a5b285a21a.png)
 
 
-### Output:
+### OUTPUT:
 
 ### RTL
 ![RTLimage](https://user-images.githubusercontent.com/119477890/231782927-5bba3bb8-248e-4df9-ab35-e207a5f0529a.png)
-
 ![rtl](https://user-images.githubusercontent.com/119477890/231782977-20459559-0640-4ca9-b810-048ac653fb0a.png)
-
 
 ### TIMING DIAGRAM
 ![timingdiagram](https://user-images.githubusercontent.com/119477890/231782327-6a234474-ab16-4122-a81c-6f8aa1ad210b.png)
-
-![3](https://user-images.githubusercontent.com/119477890/231784708-18155313-2813-4876-bd6a-f79867a98805.png)
-
+![RTLimage](https://user-images.githubusercontent.com/119477890/231782358-2952bc69-ade6-496e-8abf-937ef1c22422.png)
 
 ### TRUTHTABLE
+![Truthtable 0](https://user-images.githubusercontent.com/119477890/231785577-8fa1c9bd-34f8-49f2-9eef-7d6c188731ee.png)
 ![tt](https://user-images.githubusercontent.com/119477890/231782570-d4fef1b3-7cd1-45ed-8683-a575e4b73560.png)
-
-![Truthtable 0](https://user-images.githubusercontent.com/119477890/231782429-f5975890-917b-4c9c-a391-787ade6a941b.png)
 
 ### Result:
 Thus,the output for the half adder and full adder are successfully done
