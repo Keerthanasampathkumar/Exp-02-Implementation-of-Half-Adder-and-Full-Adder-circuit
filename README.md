@@ -67,23 +67,15 @@ assign sum=((a^b)^c);
 assign carry=((a&b)|(b&c)|(c&a));
 
 endmodule 
-### PROGRAM 1
-![program](https://user-images.githubusercontent.com/119477890/231781764-7367e74e-e5b4-43e7-ae9e-edac536dda01.png)
-### PROGRAM 2
-![pro](https://user-images.githubusercontent.com/119477890/231781861-011c8a31-0ff2-4391-8743-e2a5b285a21a.png)
-
+*/
 
 ### OUTPUT:
-
 ### RTL
-![RTLimage](https://user-images.githubusercontent.com/119477890/231782927-5bba3bb8-248e-4df9-ab35-e207a5f0529a.png)
-![rtl](https://user-images.githubusercontent.com/119477890/231782977-20459559-0640-4ca9-b810-048ac653fb0a.png)
-
+![1](https://user-images.githubusercontent.com/119477890/231788895-29f3b77b-ac05-4716-9982-e17736643077.png)
+![2](https://user-images.githubusercontent.com/119477890/231788928-b9e0b66d-bc72-4371-b0cb-9c2fb66597ec.png)
 ### TIMING DIAGRAM
-![timingdiagram](https://user-images.githubusercontent.com/119477890/231782327-6a234474-ab16-4122-a81c-6f8aa1ad210b.png)
-![3](https://user-images.githubusercontent.com/119477890/231786429-478cb196-1588-495a-8986-fa0f385ad84f.png)
-
-
+![3](https://user-images.githubusercontent.com/119477890/231788999-7bbf4707-b470-45f4-90c8-3035732c9854.png)
+![4](https://user-images.githubusercontent.com/119477890/231789156-fd11b2ff-6947-4e74-98a3-df6bbca2f6ab.png)
 ### TRUTHTABLE
 ![Truthtable 0](https://user-images.githubusercontent.com/119477890/231785577-8fa1c9bd-34f8-49f2-9eef-7d6c188731ee.png)
 ![tt](https://user-images.githubusercontent.com/119477890/231782570-d4fef1b3-7cd1-45ed-8683-a575e4b73560.png)
