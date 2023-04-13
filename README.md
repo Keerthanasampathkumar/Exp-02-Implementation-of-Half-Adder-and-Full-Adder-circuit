@@ -72,19 +72,19 @@ endmodule
 
 ### OUTPUT:
 ### RTL
-### PROGRAM 1
+### Half-Adder
 ![1](https://user-images.githubusercontent.com/119477890/231788895-29f3b77b-ac05-4716-9982-e17736643077.png)
-### PROGRAM 2
+### Full-Adder
 ![2](https://user-images.githubusercontent.com/119477890/231788928-b9e0b66d-bc72-4371-b0cb-9c2fb66597ec.png)
 ### TIMING DIAGRAM
-### PROGRAM 1
+### Half-Adder
 ![3](https://user-images.githubusercontent.com/119477890/231788999-7bbf4707-b470-45f4-90c8-3035732c9854.png)
-### PROGRAM 2
+### Full-Adder
 ![4](https://user-images.githubusercontent.com/119477890/231789156-fd11b2ff-6947-4e74-98a3-df6bbca2f6ab.png)
 ### TRUTHTABLE
-### PROGRAM 1
+### Half-Adder
 ![Truthtable 0](https://user-images.githubusercontent.com/119477890/231785577-8fa1c9bd-34f8-49f2-9eef-7d6c188731ee.png)
-### PROGRAM 2
+### Full-Adder
 ![tt](https://user-images.githubusercontent.com/119477890/231782570-d4fef1b3-7cd1-45ed-8683-a575e4b73560.png)
 
 ### Result:
